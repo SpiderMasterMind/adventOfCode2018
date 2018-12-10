@@ -18,8 +18,7 @@ class Day2Test extends FunSuite {
 
   test("duplicate chars in ID are processed") {
     // uosnxmfkezbojfdgwvrtaqhluy
-    val id = day2.listOfIds.head
-    println(id.exists(_.isLower))
+    day2.getResult
     assert(true)
   }
 }
